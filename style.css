@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #461873;
+    overflow: hidden;
+}
+.reloj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.horas__minutos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    perspective: 200px;
+}
+.cuadrado {
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: #f7ebfd;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrado h2 {
+    font-size: 6em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.minuto {
+    position: relative;
+}
+.segundos {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.segundos h2 {
+    font-size: 2em;
+    color: rgba(39, 97, 116, 1);
+}
